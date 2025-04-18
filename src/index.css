@@ -1,0 +1,126 @@
+
+@font-face {
+  font-family: "IranSans";
+  src: url("./assets/fonts/iran-sans/iran-sans-300.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-300.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/iran-sans/iran-sans-300.woff2") format("woff2"),
+    url("./assets/fonts/iran-sans/iran-sans-300.woff") format("woff"),
+    url("./assets/fonts/iran-sans/iran-sans-300.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "IranSans";
+  src: url("./assets/fonts/iran-sans/iran-sans-400.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-400.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/iran-sans/iran-sans-400.woff2") format("woff2"),
+    url("./assets/fonts/iran-sans/iran-sans-400.woff") format("woff"),
+    url("./assets/fonts/iran-sans/iran-sans-400.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "IranSans";
+  src: url("./assets/fonts/iran-sans/iran-sans-500.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-500.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/iran-sans/iran-sans-500.woff2") format("woff2"),
+    url("./assets/fonts/iran-sans/iran-sans-500.woff") format("woff"),
+    url("./assets/fonts/iran-sans/iran-sans-500.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "IranSans";
+  src: url("./assets/fonts/iran-sans/iran-sans-700.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-700.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-300.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-300.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-300.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.eot");
+  src:
+    url("./assets/fonts/iran-sans/iran-sans-300.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("./assets/fonts/vazir/Vazir-Medium-FD-WOL.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Noto Color Emoji";
+ 
+  src:url("./assets/fonts/Noto/NotoColorEmoji-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@import "@simonwep/pickr/dist/themes/nano.min.css";
+.pcr-app{
+   direction: rtl;
+   width: 300px;
+}
+.pcr-swatches{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   gap: 5px;
+}
+.pcr-swatch{
+   width: 30px;
+   height: 30px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+}
+.emoji-picker-react{
+  font-family: "Sego UI Emoji","Noto Color Emoji",sans-serif !important;
+  direction: ltr;
+}
+.emoji-picker-react .emoji{
+  font-family: "Sego UI Emoji","Noto Color Emoji",sans-serif !important;
+}
+
+.emoji-picker-react .emoji-group::before{
+  display: block !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
